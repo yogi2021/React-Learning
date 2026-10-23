@@ -19,7 +19,7 @@ function App() {
        {/* <Header /> */}
        {/* <MainSection></MainSection> */}
 
-       {/* <Footer/> */}
+      <Footer/> 
     </>
   )
 }
