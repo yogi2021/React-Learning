@@ -15,8 +15,7 @@ function App() {
       <Welcome></Welcome>
        <Welcome></Welcome>
     
-
-       {/* <Header /> */}
+     <Header /> 
        {/* <MainSection></MainSection> */}
 
       <Footer/> 
