@@ -1,0 +1,20 @@
+.div-card{
+    background-color: lightgreen;
+    border-radius: 19px;
+    padding: 12px  12px;
+    border:2 px solid orangered;
+    width:350px;
+    font-weight: bold;
+}
+
+.h2{
+     color: rgb(210, 29, 195);
+}
+
+.btn{
+    background-color: aqua;
+    color:rgb(203, 101, 179);
+    border:none;
+    padding:11px 12px;
+    border-radius: 15px;
+}
