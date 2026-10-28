@@ -4,13 +4,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Student1 from './component/Student1'
+import Student2 from './component/Student2'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <Student1/>
+     {/* <Student1/> */}
+     <Student2/>
     </>
   )
 }
