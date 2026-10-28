@@ -5,15 +5,18 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import DataRendering from './component/DataRendering'
 import DataRendering2 from './component/DataRendering2'
+import Product from './component/Product'
 
 function App() {
   
 
   return (
     <>
-        <DataRendering/>
+        {/* <DataRendering/>
 
-          <DataRendering2/>
+          <DataRendering2/> */}
+
+          <Product/>
     </>
   )
 }
