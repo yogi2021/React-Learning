@@ -8,13 +8,20 @@ import Student2 from './component/Student2'
 import Student3 from './component/Student3'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     {/* <Student1/> */}
-     {/* <Student2/> */}
+      <div style={{
+        display:'flex',
+        gap:'30px'
+      }}>
+
+      
+
+     <Student1/>
+     <Student2/>
      <Student3/>
+     </div>
     </>
   )
 }
