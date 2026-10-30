@@ -13,7 +13,8 @@ function App() {
     <>
       <div style={{
         display:'flex',
-        gap:'30px'
+        gap:'20px',
+        backgroundColor:'pink'
       }}>
 
       
