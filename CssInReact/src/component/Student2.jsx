@@ -24,6 +24,7 @@ function Student2(){
            </style>
 
            <div className="div-card">
+            <h1>My-Profile</h1>
             <h2 className="name">Name: Yogesh Pawar</h2>
             <p>Course: Java Fullstack Developer</p>
             <p>Duration: 6 months</p>
