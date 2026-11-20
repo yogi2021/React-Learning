@@ -11,11 +11,18 @@ function Counter(){
     // })
 
   // Dependencies with empty array
-     useEffect(()=>{
-        console.log("Use effect dependencies with empty array");
+    //  useEffect(()=>{
+    //     console.log("Use effect dependencies with empty array");
+    //     console.log("Count  :" +count);  
+    //  },[]
+    // )
+
+  // Dependencies with array
+  useEffect(()=>{
+    console.log("dependencies with array");
         console.log("Count  :" +count);
-     },[]
-    )
+  },[count]
+)  
 
 
 function AddCount(){
