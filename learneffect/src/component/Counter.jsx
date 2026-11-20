@@ -4,11 +4,18 @@ import { useEffect, useState } from "react";
 function Counter(){
     let [count, setCount] = useState(0);
 
-    
-    useEffect(()=>{
-        console.log("Use effect without dependencies");
+    // withount dependencies
+    // useEffect(()=>{
+    //     console.log("Use effect without dependencies");
+    //     console.log("Count  :" +count);
+    // })
+
+  // Dependencies with empty array
+     useEffect(()=>{
+        console.log("Use effect dependencies with empty array");
         console.log("Count  :" +count);
-    })
+     },[]
+    )
 
 
 function AddCount(){
@@ -21,5 +28,5 @@ function AddCount(){
        <button onClick={AddCount}>Click Me</button>
     </>
   )
-}
+} 
    export default Counter; 
