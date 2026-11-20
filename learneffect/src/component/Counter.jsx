@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 
 function Counter(){
     let [count, setCount] = useState(0);
+    let[num,setNum]=useState(0);
 
     // withount dependencies
     // useEffect(()=>{
@@ -18,10 +19,16 @@ function Counter(){
     // )
 
   // Dependencies with array
+//   useEffect(()=>{
+//     console.log("dependencies with array");
+//         console.log("Count  :" +count);
+//   },[count]
+// )  
+
   useEffect(()=>{
     console.log("dependencies with array");
         console.log("Count  :" +count);
-  },[count]
+  },[num]
 )  
 
 
@@ -33,6 +40,10 @@ function AddCount(){
     <>
        <h2>Counter : {count}</h2>
        <button onClick={AddCount}>Click Me</button>
+       <br></br>
+       <br></br>
+
+        <button onClick={()=>(setNum(num-1))}>Num</button>
     </>
   )
 } 
