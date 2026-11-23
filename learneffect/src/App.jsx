@@ -6,6 +6,7 @@ import './App.css'
 import Counter from './component/Counter'
 import Parent from './component/Parent'
 import TitleChanger from './component/TitleChanger'
+import FetchApi from './component/FetchApi'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,9 +14,10 @@ function App() {
   return (
     <>
       {/* <Counter/> */}
-      <Parent/>
+      {/* <Parent/> */}
 
-      <TitleChanger/>
+      {/* <TitleChanger/> */}
+      <FetchApi></FetchApi>
 
     </>
   )
